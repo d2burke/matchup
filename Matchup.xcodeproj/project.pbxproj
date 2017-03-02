@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		534C37191E67C16900950E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534C37181E67C16900950E16 /* AppDelegate.swift */; };
-		534C371B1E67C16900950E16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534C371A1E67C16900950E16 /* ViewController.swift */; };
 		534C371E1E67C16900950E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534C371C1E67C16900950E16 /* Main.storyboard */; };
 		534C37211E67C16900950E16 /* Matchup.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 534C371F1E67C16900950E16 /* Matchup.xcdatamodeld */; };
 		534C37231E67C16900950E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 534C37221E67C16900950E16 /* Assets.xcassets */; };
 		534C37261E67C16900950E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534C37241E67C16900950E16 /* LaunchScreen.storyboard */; };
 		534C37311E67C16900950E16 /* MatchupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534C37301E67C16900950E16 /* MatchupTests.swift */; };
 		534C373C1E67C16900950E16 /* MatchupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534C373B1E67C16900950E16 /* MatchupUITests.swift */; };
+		53EB714D1E67C59C006F988B /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB714C1E67C59C006F988B /* PlayersViewController.swift */; };
+		53EB71511E67EB94006F988B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB71501E67EB94006F988B /* Player.swift */; };
+		53EB71531E67F034006F988B /* MatchupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB71521E67F034006F988B /* MatchupViewController.swift */; };
+		53EB71551E67F1E5006F988B /* UIImageView+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB71541E67F1E5006F988B /* UIImageView+Loader.swift */; };
+		53EB71571E67F3E0006F988B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB71561E67F3E0006F988B /* LoginViewController.swift */; };
+		FAC2250A7AA48C00B74DC540 /* Pods_Matchup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EAAD0DF36567CFC6CB11440 /* Pods_Matchup.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 /* Begin PBXFileReference section */
 		534C37151E67C16900950E16 /* Matchup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		534C37181E67C16900950E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		534C371A1E67C16900950E16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		534C371D1E67C16900950E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		534C37201E67C16900950E16 /* Matchup.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Matchup.xcdatamodel; sourceTree = "<group>"; };
 		534C37221E67C16900950E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		534C37371E67C16900950E16 /* MatchupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		534C373B1E67C16900950E16 /* MatchupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchupUITests.swift; sourceTree = "<group>"; };
 		534C373D1E67C16900950E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53EB714C1E67C59C006F988B /* PlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayersViewController.swift; path = Controller/PlayersViewController.swift; sourceTree = "<group>"; };
+		53EB71501E67EB94006F988B /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		53EB71521E67F034006F988B /* MatchupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchupViewController.swift; path = Controller/MatchupViewController.swift; sourceTree = "<group>"; };
+		53EB71541E67F1E5006F988B /* UIImageView+Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+Loader.swift"; path = "View/UIImageView+Loader.swift"; sourceTree = "<group>"; };
+		53EB71561E67F3E0006F988B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Controller/LoginViewController.swift; sourceTree = "<group>"; };
+		99CEC5AA0A3CB67A11D32CA7 /* Pods-Matchup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matchup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Matchup/Pods-Matchup.debug.xcconfig"; sourceTree = "<group>"; };
+		9EAAD0DF36567CFC6CB11440 /* Pods_Matchup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Matchup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5AA0360BDCEF9210C3E8654 /* Pods-Matchup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matchup.release.xcconfig"; path = "Pods/Target Support Files/Pods-Matchup/Pods-Matchup.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC2250A7AA48C00B74DC540 /* Pods_Matchup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		196F5F1218A57B94112B634A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EAAD0DF36567CFC6CB11440 /* Pods_Matchup.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		534C370C1E67C16900950E16 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +104,8 @@
 				534C372F1E67C16900950E16 /* MatchupTests */,
 				534C373A1E67C16900950E16 /* MatchupUITests */,
 				534C37161E67C16900950E16 /* Products */,
+				B00AD0A379CE842764EE0C55 /* Pods */,
+				196F5F1218A57B94112B634A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +123,11 @@
 			isa = PBXGroup;
 			children = (
 				534C37181E67C16900950E16 /* AppDelegate.swift */,
-				534C371A1E67C16900950E16 /* ViewController.swift */,
+				53EB714C1E67C59C006F988B /* PlayersViewController.swift */,
+				53EB71521E67F034006F988B /* MatchupViewController.swift */,
+				53EB71561E67F3E0006F988B /* LoginViewController.swift */,
+				53EB71541E67F1E5006F988B /* UIImageView+Loader.swift */,
+				53EB71501E67EB94006F988B /* Player.swift */,
 				534C371C1E67C16900950E16 /* Main.storyboard */,
 				534C37221E67C16900950E16 /* Assets.xcassets */,
 				534C37241E67C16900950E16 /* LaunchScreen.storyboard */,
@@ -128,6 +155,15 @@
 			path = MatchupUITests;
 			sourceTree = "<group>";
 		};
+		B00AD0A379CE842764EE0C55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99CEC5AA0A3CB67A11D32CA7 /* Pods-Matchup.debug.xcconfig */,
+				A5AA0360BDCEF9210C3E8654 /* Pods-Matchup.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 534C37401E67C16900950E16 /* Build configuration list for PBXNativeTarget "Matchup" */;
 			buildPhases = (
+				4734FB7E3DF7949EAB06F272 /* [CP] Check Pods Manifest.lock */,
 				534C37111E67C16900950E16 /* Sources */,
 				534C37121E67C16900950E16 /* Frameworks */,
 				534C37131E67C16900950E16 /* Resources */,
+				B973F200638038E8AAAA3DAE /* [CP] Embed Pods Frameworks */,
+				8D2CF2E0916F9CD53AAA47F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,7 +235,7 @@
 				TargetAttributes = {
 					534C37141E67C16900950E16 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					534C372B1E67C16900950E16 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -257,14 +296,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4734FB7E3DF7949EAB06F272 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D2CF2E0916F9CD53AAA47F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Matchup/Pods-Matchup-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B973F200638038E8AAAA3DAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Matchup/Pods-Matchup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		534C37111E67C16900950E16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53EB71571E67F3E0006F988B /* LoginViewController.swift in Sources */,
+				53EB71531E67F034006F988B /* MatchupViewController.swift in Sources */,
 				534C37211E67C16900950E16 /* Matchup.xcdatamodeld in Sources */,
-				534C371B1E67C16900950E16 /* ViewController.swift in Sources */,
 				534C37191E67C16900950E16 /* AppDelegate.swift in Sources */,
+				53EB714D1E67C59C006F988B /* PlayersViewController.swift in Sources */,
+				53EB71511E67EB94006F988B /* Player.swift in Sources */,
+				53EB71551E67F1E5006F988B /* UIImageView+Loader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,8 +503,10 @@
 		};
 		534C37411E67C16900950E16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99CEC5AA0A3CB67A11D32CA7 /* Pods-Matchup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Matchup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.d2burke.Matchup;
@@ -424,8 +517,10 @@
 		};
 		534C37421E67C16900950E16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5AA0360BDCEF9210C3E8654 /* Pods-Matchup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Matchup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.d2burke.Matchup;
@@ -507,6 +602,7 @@
 				534C37421E67C16900950E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		534C37431E67C16900950E16 /* Build configuration list for PBXNativeTarget "MatchupTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +611,7 @@
 				534C37451E67C16900950E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		534C37461E67C16900950E16 /* Build configuration list for PBXNativeTarget "MatchupUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +620,7 @@
 				534C37481E67C16900950E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
