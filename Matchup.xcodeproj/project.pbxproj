@@ -14,11 +14,11 @@
 		534C37261E67C16900950E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534C37241E67C16900950E16 /* LaunchScreen.storyboard */; };
 		534C37311E67C16900950E16 /* MatchupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534C37301E67C16900950E16 /* MatchupTests.swift */; };
 		534C373C1E67C16900950E16 /* MatchupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534C373B1E67C16900950E16 /* MatchupUITests.swift */; };
-		53EB714D1E67C59C006F988B /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB714C1E67C59C006F988B /* PlayersViewController.swift */; };
-		53EB71511E67EB94006F988B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB71501E67EB94006F988B /* Player.swift */; };
-		53EB71531E67F034006F988B /* MatchupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB71521E67F034006F988B /* MatchupViewController.swift */; };
-		53EB71551E67F1E5006F988B /* UIImageView+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB71541E67F1E5006F988B /* UIImageView+Loader.swift */; };
-		53EB71571E67F3E0006F988B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB71561E67F3E0006F988B /* LoginViewController.swift */; };
+		53EB71601E67FDED006F988B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB71591E67FDED006F988B /* LoginViewController.swift */; };
+		53EB71611E67FDED006F988B /* MatchupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB715A1E67FDED006F988B /* MatchupViewController.swift */; };
+		53EB71621E67FDED006F988B /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB715B1E67FDED006F988B /* PlayersViewController.swift */; };
+		53EB71631E67FDED006F988B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB715D1E67FDED006F988B /* Player.swift */; };
+		53EB71641E67FDED006F988B /* UIImageView+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB715F1E67FDED006F988B /* UIImageView+Loader.swift */; };
 		FAC2250A7AA48C00B74DC540 /* Pods_Matchup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EAAD0DF36567CFC6CB11440 /* Pods_Matchup.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,11 +53,11 @@
 		534C37371E67C16900950E16 /* MatchupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		534C373B1E67C16900950E16 /* MatchupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchupUITests.swift; sourceTree = "<group>"; };
 		534C373D1E67C16900950E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53EB714C1E67C59C006F988B /* PlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayersViewController.swift; path = Controller/PlayersViewController.swift; sourceTree = "<group>"; };
-		53EB71501E67EB94006F988B /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		53EB71521E67F034006F988B /* MatchupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchupViewController.swift; path = Controller/MatchupViewController.swift; sourceTree = "<group>"; };
-		53EB71541E67F1E5006F988B /* UIImageView+Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+Loader.swift"; path = "View/UIImageView+Loader.swift"; sourceTree = "<group>"; };
-		53EB71561E67F3E0006F988B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Controller/LoginViewController.swift; sourceTree = "<group>"; };
+		53EB71591E67FDED006F988B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		53EB715A1E67FDED006F988B /* MatchupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchupViewController.swift; sourceTree = "<group>"; };
+		53EB715B1E67FDED006F988B /* PlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		53EB715D1E67FDED006F988B /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		53EB715F1E67FDED006F988B /* UIImageView+Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Loader.swift"; sourceTree = "<group>"; };
 		99CEC5AA0A3CB67A11D32CA7 /* Pods-Matchup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matchup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Matchup/Pods-Matchup.debug.xcconfig"; sourceTree = "<group>"; };
 		9EAAD0DF36567CFC6CB11440 /* Pods_Matchup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Matchup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5AA0360BDCEF9210C3E8654 /* Pods-Matchup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matchup.release.xcconfig"; path = "Pods/Target Support Files/Pods-Matchup/Pods-Matchup.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,12 +123,10 @@
 			isa = PBXGroup;
 			children = (
 				534C37181E67C16900950E16 /* AppDelegate.swift */,
-				53EB714C1E67C59C006F988B /* PlayersViewController.swift */,
-				53EB71521E67F034006F988B /* MatchupViewController.swift */,
-				53EB71561E67F3E0006F988B /* LoginViewController.swift */,
-				53EB71541E67F1E5006F988B /* UIImageView+Loader.swift */,
-				53EB71501E67EB94006F988B /* Player.swift */,
 				534C371C1E67C16900950E16 /* Main.storyboard */,
+				53EB71581E67FDED006F988B /* Controller */,
+				53EB715C1E67FDED006F988B /* Model */,
+				53EB715E1E67FDED006F988B /* View */,
 				534C37221E67C16900950E16 /* Assets.xcassets */,
 				534C37241E67C16900950E16 /* LaunchScreen.storyboard */,
 				534C37271E67C16900950E16 /* Info.plist */,
@@ -153,6 +151,32 @@
 				534C373D1E67C16900950E16 /* Info.plist */,
 			);
 			path = MatchupUITests;
+			sourceTree = "<group>";
+		};
+		53EB71581E67FDED006F988B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				53EB71591E67FDED006F988B /* LoginViewController.swift */,
+				53EB715A1E67FDED006F988B /* MatchupViewController.swift */,
+				53EB715B1E67FDED006F988B /* PlayersViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		53EB715C1E67FDED006F988B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53EB715D1E67FDED006F988B /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		53EB715E1E67FDED006F988B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				53EB715F1E67FDED006F988B /* UIImageView+Loader.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B00AD0A379CE842764EE0C55 /* Pods */ = {
@@ -349,13 +373,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53EB71571E67F3E0006F988B /* LoginViewController.swift in Sources */,
-				53EB71531E67F034006F988B /* MatchupViewController.swift in Sources */,
+				53EB71601E67FDED006F988B /* LoginViewController.swift in Sources */,
 				534C37211E67C16900950E16 /* Matchup.xcdatamodeld in Sources */,
 				534C37191E67C16900950E16 /* AppDelegate.swift in Sources */,
-				53EB714D1E67C59C006F988B /* PlayersViewController.swift in Sources */,
-				53EB71511E67EB94006F988B /* Player.swift in Sources */,
-				53EB71551E67F1E5006F988B /* UIImageView+Loader.swift in Sources */,
+				53EB71621E67FDED006F988B /* PlayersViewController.swift in Sources */,
+				53EB71631E67FDED006F988B /* Player.swift in Sources */,
+				53EB71611E67FDED006F988B /* MatchupViewController.swift in Sources */,
+				53EB71641E67FDED006F988B /* UIImageView+Loader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
